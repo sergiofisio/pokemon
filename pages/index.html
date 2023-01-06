@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <title>pokemon</title>
+  </head>
+
+  <body>
+    <div class="container displayflex">
+      <header>
+        <img src="../asset/International_Pokémon_logo.svg.png" alt="" />
+      </header>
+      <div class="main displayflex">
+        <h1>Escolha um Pokemon para ver mais sobre</h1>
+        <div class="modal displaynone">
+          <button type="click"><img src="../asset/x.png" alt="" /></button>
+          <div>
+            <h1 class="name"></h1>
+            <img src="" alt="" class="imgModal" />
+            <h1 class="weight"></h1>
+            <h1 class="height"></h1>
+          </div>
+        </div>
+        <main></main>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../src/api.js"></script>
+    <script src="../src/index.js"></script>
+    <!-- <script src="../src/pokemon.js"></script> -->
+  </body>
+</html>
